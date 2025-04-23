@@ -1,0 +1,17 @@
+[project]
+name = "mysmallllmserver"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate>=1.6.0",
+    "bitsandbytes>=0.45.5",
+    "fastapi>=0.115.12",
+    "python-dotenv>=1.1.0",
+    "pytz>=2025.2",
+    "setuptools>=78.1.1",
+    "torch>=2.6.0",
+    "uvicorn>=0.34.2",
+    "vllm>=0.8.4",
+]
